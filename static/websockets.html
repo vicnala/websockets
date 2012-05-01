@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+    <title>My tag cloud</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="static/websockets.css" />
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="static/websockets.js"></script>
+</head>
+<body>
+
+<div id="header">
+    <h1>WebSockets Web Applicaton</h1>
+</div>
+
+<div id="settings">
+    <ul class="formlist">
+        <li><label class="labels">host:</label><input type="text" id="host" value="localhost" class="input"/></li>
+        <li><label class="labels">port:</label><input type="text" id="port" value="8888" class="input"/></li>
+        <li><label class="labels">uri:</label><input type="text" id="uri" value="ws" class="input"/></li>
+    </ul>
+</div>
+
+<div id="conbuttons">
+    <input type="submit" id="open" value="connect" class="open" />
+    <input type="submit" id="close" value="disconnect" class="close" />
+</div>
+
+<div id="container">
+    <div id="chatlog">
+
+    </div><!-- #chatlog -->
+    <input type="text" id="message" value="hello server!" class="msginput"/>
+</div><!-- #container -->
+ 
+</body>
+</html>
