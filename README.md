@@ -6,19 +6,13 @@ Web Application prototype using Python, Tornado, WebSockets, JavaScript, jQuery 
 Tornado install (Linux/Mac):
 
 wget https://github.com/downloads/facebook/tornado/tornado-2.2.1.tar.gz
-
 tar zxvf tornado-2.2.1.tar.gz
-
 cd tornado-2.2.1
-
 python setup.py build
-
 sudo python setup.py install
 
 Run web application:
-
 cd websockets
-
 python websockets.py
 
 (exit with ctrl-c)
